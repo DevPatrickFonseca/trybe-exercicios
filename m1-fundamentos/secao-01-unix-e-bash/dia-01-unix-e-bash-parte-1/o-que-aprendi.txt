@@ -1,0 +1,8 @@
+# UNIX
+
+- Quando foi inserido no mercado
+- Seu comportamento no computador
+- Sobre a hierarquia da raiz
+- Como funciona o Kernel
+- Shell e tipos de Shell
+- Comandos parte 01
