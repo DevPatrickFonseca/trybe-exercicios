@@ -1,0 +1,8 @@
+# UNIX
+
+- Pesquisas mais avançadas
+- Sobre permissões
+- Processos
+- Atalhas de teclado
+- Comandos de Entrada e Saida
+- Comandos Parte 02
