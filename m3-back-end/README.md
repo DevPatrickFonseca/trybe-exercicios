@@ -1,0 +1,12 @@
+## Módulo 03 - Desenvolvimento Back-end
+- Banco de Dados
+- SQL
+- NoSQL
+- Server-Side
+- Deploy
+- Node
+- Express.JS
+- ORM
+- Docker
+- Testes Unitários
+- Testes de Integração
