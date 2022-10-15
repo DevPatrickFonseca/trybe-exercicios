@@ -1,0 +1,8 @@
+# GIT
+
+- O que é Git
+- Seu funcionamento
+- Instalação
+- Sua estrutura de versionamento
+- Criar um repositório Git
+- Comandos Parte 01
