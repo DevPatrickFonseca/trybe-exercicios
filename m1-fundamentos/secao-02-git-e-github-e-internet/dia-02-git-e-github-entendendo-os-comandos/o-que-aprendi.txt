@@ -1,0 +1,7 @@
+# GIT e GITHUB
+
+- Integração Git e GitHub
+- Importância e segurança
+- Trabalhar o repositório em equipe
+- Boas práticas no versionamento de meu código
+- Comandos Parte 02
