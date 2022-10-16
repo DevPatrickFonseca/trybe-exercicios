@@ -1,0 +1,7 @@
+# HTML e CSS
+
+- Analizar a estrutura de um site
+- Boas práticas na criação de páginas HTML
+- Tags diversas
+- Markups diversas 
+- Uso do CSS
