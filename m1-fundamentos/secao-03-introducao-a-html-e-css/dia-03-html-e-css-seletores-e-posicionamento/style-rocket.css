@@ -1,0 +1,74 @@
+/* 01 */
+/* Faça com que todos os itens de Listas Ordenadas tenham uma cor de fundo amarela*/
+ol li{
+    background-color: yellow;   
+}
+/* Se a numeração do item for PAR, faça a cor de fonte ser verde. */
+ol li:nth-child(even){
+    color: green;
+}
+/* Se o número for considerado ÍMPAR, utilize a propriedade text-transform para deixar o texto maiúsculo. (Dica: combinar classes pode ser útil aqui).  */
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+/* 02 */
+
+/* Faça todas as tags Header (h1, h2…) possuírem cor de fonte vermelha e,  */
+h1, h3 {
+    color: red;
+}
+/* se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente uma borda de 1px preta e sólida. */
+h1 em, h2 em {
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+/* 03 */
+
+/* Faça todas as li’s terem 20px de tamanho de fonte e, */
+li{
+    font-size: 20px;
+}
+/* para todo texto em itálico dentro de alguma li, utilize a propriedade font-weight para deixá-lo negrito.  */
+li em{
+    font-weight: 800;
+}
+
+/* 04 */
+
+/* Na listagem de linguagens de programação, faça com que as 3 primeiras da lista possuam cor de fonte azul e */
+#linguagens li:nth-child(-n + 3) {
+    color: blue;
+  }
+
+ul.maiores-linguagens li:nth-child(-n +3){
+    color: blue;
+}
+/* se alguma possuir “java*” no texto, utilize uma cor de fundo rosa. */
+.rosa{
+    background-color: pink;
+}
+
+/* 05 */
+/* (Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito */
+#sites li a:hover {
+    font-weight: 900;
+}
+/* e assuma a cor de fonte “temática do site”  */
+a[href*="stack"]:hover {
+    color: orange;
+}
+a[href*="w3schools"]:hover {
+    color: greenyellow;
+}
+a[href*="mozilla"]:hover {
+    color: pink;
+}
+a[href*="devdocs"]:hover {
+    color: yellow;
+}
+a[href*="trybe"]:hover {
+    color: green;
+}
+
