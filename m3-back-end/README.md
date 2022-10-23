@@ -1,4 +1,4 @@
-## Módulo 03 - Desenvolvimento Back-end :hourglass_flowing_sand:
+## :hourglass_flowing_sand: Módulo 03 - Desenvolvimento Back-end
 - Banco de Dados
 - SQL
 - NoSQL
