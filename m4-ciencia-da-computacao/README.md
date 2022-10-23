@@ -1,4 +1,4 @@
-## Módulo 04 - Ciência da computação :hourglass_flowing_sand:
+## :hourglass_flowing_sand: Módulo 04 - Ciência da computação
 - Python
 - Algoritmos
 - Estrutura de Dados
