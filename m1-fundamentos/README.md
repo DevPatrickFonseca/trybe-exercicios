@@ -22,7 +22,7 @@
 - [x] 3.2 - ~~HTML & CSS - Primeiros passos em CSS~~
 - [x] 3.3 - ~~HTML & CSS - Seletores e posicionamento~~
 - [x] 3.4 - ~~HTML Semântico~~
-- [x] 3.5 - ~~Projeto~~ - [Concluído com Sucesso 100%](https://www.linkedin.com/posts/patrickfonseca_soutryber-gotrybe-vqv-activity-6989011543627575296-7adz?utm_source=share&utm_medium=member_desktop)  :rocket:
+- [x] 3.5 - ~~Projeto~~ - <a href="https://www.linkedin.com/posts/patrickfonseca_soutryber-gotrybe-vqv-activity-6989011543627575296-7adz?utm_source=share&utm_medium=member_desktop" target="_blank">Concluído com Sucesso 100%</a> :rocket:
 
 ### :hourglass_flowing_sand: Seção 04 - [Introdução à JavaScript](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-04-introducao-a-javascript)
 - [x] 4.1 - JavaScript - Primeiros passos
