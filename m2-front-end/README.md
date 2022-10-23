@@ -1,4 +1,4 @@
-## Módulo 02 - Desenvolvimento Front-end
+## :hourglass_flowing_sand: Módulo 02 - Desenvolvimento Front-end
 
 - HTML
 - CSS
