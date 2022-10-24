@@ -1,8 +1,8 @@
 let palavra = "banana";
-let outraPalavra = "";
+let invertida = "";
 
 for (let i = 0; i < palavra.length; i += 1) {
-  outraPalavra += palavra[palavra.length - 1 - i];
+  invertida += palavra[palavra.length - 1 - i];
 }
 
-console.log(outraPalavra);
+console.log(invertida);
