@@ -1,4 +1,4 @@
-let palavra = "banana";
+let palavra = "Tryber";
 let invertida = "";
 
 for (let i = 0; i < palavra.length; i += 1) {
