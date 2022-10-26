@@ -3,7 +3,7 @@
 
 // Estrutura - ternary operator
 const trueExpression = (1 + 1 === 2) ? `isso é verdade` : `isso é mentira`;
-console.log(trueExpression); // isso é verdade
+console.log(trueExpression);
 
 const falseExpression = (2 + 2 === 3) ? `isso é verdade` : `isso é mentira`;
-console.log(falseExpression); // isso é mentira
+console.log(falseExpression);
