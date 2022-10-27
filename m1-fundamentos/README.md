@@ -27,9 +27,9 @@
 ### :hourglass_flowing_sand: Seção 04 - [Introdução à JavaScript](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-04-introducao-a-javascript)
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
-- [ ] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- [x] 4.4 - JavaScript - Objetos e funções
+- [x] 4.5 - JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 4.6 - Projeto - :rocket:
 
 ### Seção 05 - JavaScript: DOM, Eventos e Web Storage
