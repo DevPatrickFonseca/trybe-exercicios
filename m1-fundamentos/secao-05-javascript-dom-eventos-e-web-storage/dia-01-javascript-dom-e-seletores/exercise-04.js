@@ -15,3 +15,9 @@ function changeColorSquareWhite() {
   redSquare.style.background = "rgb(255,255,255)";
 }
 changeColorSquareWhite();
+
+function correctTitle() {
+  let titleH1 = document.getElementsByTagName("h1")[0];
+  titleH1.innerHTML = "Seção 05 - JavaScript DOM e seletores"
+}
+correctTitle();
