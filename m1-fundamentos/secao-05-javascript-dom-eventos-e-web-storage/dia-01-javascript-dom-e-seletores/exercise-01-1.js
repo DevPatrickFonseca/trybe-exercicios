@@ -5,4 +5,4 @@ const h2 = document.getElementById("page-title").innerText = "The Lord Of The Ri
 
 const paragraph = document.getElementById("paragraph").innerText = "Cruzeiro time do meu coração!";
 
-const H4 = document.getElementById("subtitle").innerText = "Primeiro contato com JavaScript DOM";
+const h4 = document.getElementById("subtitle").innerText = "Primeiro contato com JavaScript";
