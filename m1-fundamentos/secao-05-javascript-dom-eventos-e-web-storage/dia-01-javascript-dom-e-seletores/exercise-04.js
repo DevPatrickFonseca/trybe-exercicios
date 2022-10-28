@@ -21,3 +21,9 @@ function correctTitle() {
   titleH1.innerHTML = "Seção 05 - JavaScript DOM e seletores"
 }
 correctTitle();
+
+function changeUpperCaseParagraph() {
+  let paragraphP = document.getElementsByTagName("p")[0];
+  paragraphP.innerHTML = paragraphP.innerHTML.toUpperCase();
+}
+changeUpperCaseParagraph();
