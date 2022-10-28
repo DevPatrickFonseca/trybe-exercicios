@@ -27,3 +27,12 @@ function changeUpperCaseParagraph() {
   paragraphP.innerHTML = paragraphP.innerHTML.toUpperCase();
 }
 changeUpperCaseParagraph();
+
+function showAllParagraphs() {
+  let allParagraphs = document.getElementsByTagName("p");
+
+  for (let i = 0; i < allParagraphs.length; i += 1) {
+    console.log(allParagraphs[i].innerHTML);    
+  }
+}
+showAllParagraphs();
