@@ -9,3 +9,9 @@ function changeColorSquareGreen() {
   yellowSquare.style.background = "rgb(76,164,109)";
 }
 changeColorSquareGreen();
+
+function changeColorSquareWhite() {
+  let redSquare = document.getElementsByClassName("center-content")[0];
+  redSquare.style.background = "rgb(255,255,255)";
+}
+changeColorSquareWhite();
