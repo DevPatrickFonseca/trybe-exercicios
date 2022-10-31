@@ -25,5 +25,11 @@ exercise04();
 function exercise05() {
   const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
   console.log(primeiroFilho2);
-};
+}
 exercise05();
+
+function exercise06() {
+  const textElement = elementoOndeVoceEsta.nextSibling;
+  console.log(textElement);
+}
+exercise06();
