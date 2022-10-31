@@ -23,5 +23,5 @@ function exercise02_2() {
   filhoElementoOndeVoceEsta.id = "filhoElementoOndeVoceEsta";
   elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
   console.log(filhoElementoOndeVoceEsta);
-}
+} 
 exercise02_2();
