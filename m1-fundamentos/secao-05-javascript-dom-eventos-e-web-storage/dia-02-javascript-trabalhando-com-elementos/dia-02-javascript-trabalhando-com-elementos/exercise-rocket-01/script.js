@@ -39,3 +39,9 @@ function exercise07() {
   console.log(terceiroFilho);
 }
 exercise07();
+
+function exercise08() {
+  const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+  console.log(terceiroFilho2);
+}
+exercise08();
