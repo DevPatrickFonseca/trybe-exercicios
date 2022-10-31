@@ -25,3 +25,17 @@ function exercise02_2() {
   console.log(filhoElementoOndeVoceEsta);
 } 
 exercise02_2();
+
+function exercise03_1() {
+  const primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho");
+  console.log(primeiroFilhoDoFilho);
+}
+exercise03_1();
+
+function exercise03_2() {
+  const filhoPrimeiroFilhoDoFilho = document.createElement("section");
+  filhoPrimeiroFilhoDoFilho.id = "filhoPrimeiroFilhoDoFilho";
+  primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
+  console.log(filhoPrimeiroFilhoDoFilho);
+}
+exercise03_2();
