@@ -21,3 +21,9 @@ function exercise04() {
   console.log(primeiroFilho);
 }
 exercise04();
+
+function exercise05() {
+  const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+  console.log(primeiroFilho2);
+};
+exercise05();
