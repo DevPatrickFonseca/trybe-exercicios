@@ -13,5 +13,11 @@ exercise02();
 function exercise03() {
   let primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
   primeiroFilhoDoFilho.innerText = "primeiroFilhoDoFilho";
-};
+}
 exercise03();
+
+function exercise04() {
+  const primeiroFilho = pai.firstElementChild;
+  console.log(primeiroFilho);
+}
+exercise04();
