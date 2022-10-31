@@ -9,3 +9,9 @@ function exercise02() {
   pai.style.color = "red";
 }
 exercise02();
+
+function exercise03() {
+  let primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+  primeiroFilhoDoFilho.innerText = "primeiroFilhoDoFilho";
+};
+exercise03();
