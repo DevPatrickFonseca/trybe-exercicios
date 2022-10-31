@@ -33,3 +33,9 @@ function exercise06() {
   console.log(textElement);
 }
 exercise06();
+
+function exercise07() {
+  const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+  console.log(terceiroFilho);
+}
+exercise07();
