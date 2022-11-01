@@ -23,7 +23,7 @@ function exercise02_2() {
   filhoElementoOndeVoceEsta.id = "filhoElementoOndeVoceEsta";
   elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
   console.log(filhoElementoOndeVoceEsta);
-} 
+}
 exercise02_2();
 
 function exercise03_1() {
@@ -39,3 +39,10 @@ function exercise03_2() {
   console.log(filhoPrimeiroFilhoDoFilho);
 }
 exercise03_2();
+
+function exercise04_1() {
+  const terceiroFilho =
+    filhoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+  console.log(terceiroFilho);
+}
+exercise04_1();
