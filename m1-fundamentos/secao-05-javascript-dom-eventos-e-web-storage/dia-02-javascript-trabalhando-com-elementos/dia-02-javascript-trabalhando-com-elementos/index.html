@@ -60,12 +60,20 @@
       // Exercício 01
       function addTag() {
         const elementH1 = document.createElement("h1");
-      elementH1.innerText = "Exercício - JavaScript DOM";
-      document.body.appendChild(elementH1);
-      console.log(elementH1);
-      };
+        elementH1.innerText = "Exercício - JavaScript DOM";
+        document.body.appendChild(elementH1);
+        console.log(elementH1);
+      }
       addTag();
-      
+
+      // Exercício 02
+      function addTagMain() {
+        const elementMain = document.createElement("main");
+        elementMain.className = "main-content";
+        document.body.appendChild(elementMain);
+        console.log(elementMain);
+      }
+      addTagMain();
     </script>
   </body>
 </html>
