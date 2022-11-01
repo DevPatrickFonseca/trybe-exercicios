@@ -160,7 +160,41 @@
       // addTagSectionRight();
 
       // Exercício 07
-      function addTagImage() {
+      // function addTagImage() {
+      //   const elementH1 = document.createElement("h1");
+      //   elementH1.innerText = "Exercício - JavaScript DOM";
+      //   document.body.appendChild(elementH1);
+
+      //   const elementMain = document.createElement("main");
+      //   elementMain.className = "main-content";
+      //   document.body.appendChild(elementMain);
+
+      //   const elementSectionCenter = document.createElement("section");
+      //   elementSectionCenter.className = "center-content";
+      //   elementMain.appendChild(elementSectionCenter);
+
+      //   const paragraph = document.createElement("p");
+      //   paragraph.innerHTML = "Texto Show";
+      //   elementSectionCenter.appendChild(paragraph);
+
+      //   const elementSectionLeft = document.createElement("section");
+      //   elementSectionLeft.className = "left-content";
+      //   elementMain.appendChild(elementSectionLeft);
+
+      //   const elementSectionRight = document.createElement("section");
+      //   elementSectionRight.className = "right-content";
+      //   elementMain.appendChild(elementSectionRight);
+
+      //   const elementImg = document.createElement("img");
+      //   elementImg.className = "small-image";
+      //   elementImg.src = "https://picsum.photos/200";
+      //   elementSectionLeft.appendChild(elementImg);
+      //   console.log(elementImg);
+      // }
+      // addTagImage();
+
+      // Exercício 08
+      function addElementUl() {
         const elementH1 = document.createElement("h1");
         elementH1.innerText = "Exercício - JavaScript DOM";
         document.body.appendChild(elementH1);
@@ -189,9 +223,31 @@
         elementImg.className = "small-image";
         elementImg.src = "https://picsum.photos/200";
         elementSectionLeft.appendChild(elementImg);
-        console.log(elementImg);
+
+        const elementUl = document.createElement("ul");
+        elementSectionRight.appendChild(elementUl);
+
+        const arrayNumbers = [
+          "Um",
+          "Dois",
+          "Três",
+          "Quatro",
+          "Cinco",
+          "Seis",
+          "Sete",
+          "Oito",
+          "Nove",
+          "Dez",
+        ];
+        for (let num in arrayNumbers) {
+          const elementLi = document.createElement("li");
+          elementLi.innerHTML = arrayNumbers[num];
+          elementUl.appendChild(elementLi);
+        }
+
+        console.log(elementUl);
       }
-      addTagImage();
+      addElementUl();
     </script>
   </body>
 </html>
