@@ -131,7 +131,36 @@
       // addTagSectionLeft();
 
       // Exercício 06
-      function addTagSectionRight() {
+      // function addTagSectionRight() {
+      //   const elementH1 = document.createElement("h1");
+      //   elementH1.innerText = "Exercício - JavaScript DOM";
+      //   document.body.appendChild(elementH1);
+
+      //   const elementMain = document.createElement("main");
+      //   elementMain.className = "main-content";
+      //   document.body.appendChild(elementMain);
+
+      //   const elementSectionCenter = document.createElement("section");
+      //   elementSectionCenter.className = "center-content";
+      //   elementMain.appendChild(elementSectionCenter);
+
+      //   const paragraph = document.createElement("p");
+      //   paragraph.innerHTML = "Texto Show";
+      //   elementSectionCenter.appendChild(paragraph);
+
+      //   const elementSectionLeft = document.createElement("section");
+      //   elementSectionLeft.className = "left-content";
+      //   elementMain.appendChild(elementSectionLeft);
+
+      //   const elementSectionRight = document.createElement("section");
+      //   elementSectionRight.className = "right-content";
+      //   elementMain.appendChild(elementSectionRight);
+      //   console.log(elementSectionRight);
+      // }
+      // addTagSectionRight();
+
+      // Exercício 07
+      function addTagImage() {
         const elementH1 = document.createElement("h1");
         elementH1.innerText = "Exercício - JavaScript DOM";
         document.body.appendChild(elementH1);
@@ -155,9 +184,14 @@
         const elementSectionRight = document.createElement("section");
         elementSectionRight.className = "right-content";
         elementMain.appendChild(elementSectionRight);
-        console.log(elementSectionRight);
+
+        const elementImg = document.createElement("img");
+        elementImg.className = "small-image";
+        elementImg.src = "https://picsum.photos/200";
+        elementSectionLeft.appendChild(elementImg);
+        console.log(elementImg);
       }
-      addTagSectionRight();
+      addTagImage();
     </script>
   </body>
 </html>
