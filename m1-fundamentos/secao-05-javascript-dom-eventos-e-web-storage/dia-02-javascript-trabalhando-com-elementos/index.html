@@ -87,6 +87,23 @@
         console.log(elementSectionCenter);
       }
       addTagSection();
+
+      // Exercício 04
+      function addTagParagraph() {
+        const elementMain = document.createElement("main");
+        elementMain.className = "main-content";
+        document.body.appendChild(elementMain);
+
+        const elementSectionCenter = document.createElement("section");
+        elementSectionCenter.className = "center-content";
+        elementMain.appendChild(elementSectionCenter);
+
+        const paragraph = document.createElement("p");
+        paragraph.innerHTML = "Texto Show";
+        elementSectionCenter.appendChild(paragraph);
+        console.log(paragraph);
+      }
+      addTagParagraph();
     </script>
   </body>
 </html>
