@@ -1,382 +1,390 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Exercício</title>
-    <style>
-      section {
-        border-color: black;
-        border-style: solid;
-      }
-
-      .title {
-        text-align: center;
-      }
-
-      .main-content {
-        background-color: yellow;
-      }
-
-      .main-content .center-content {
-        background-color: red;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .main-content .center-content p {
-        font-style: italic;
-      }
-
-      .main-content .left-content {
-        background-color: green;
-        width: 60%;
-        margin-left: 0;
-        margin-right: auto;
-      }
-
-      .main-content .left-content .small-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 100%;
-      }
-
-      .main-content .right-content {
-        background-color: blue;
-        width: 60%;
-        margin-left: auto;
-        margin-right: 0;
-      }
-
-      .main-content .description {
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <script>
-      // Exercício 01
-      // function addTag() {
-      //   const elementH1 = document.createElement("h1");
-      //   elementH1.innerText = "Exercício - JavaScript DOM";
-      //   document.body.appendChild(elementH1);
-      //   console.log(elementH1);
-      // }
-      // addTag();
-
-      // Exercício 02
-      // function addTagMain() {
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-      //   console.log(elementMain);
-      // }
-      // addTagMain();
-
-      // Exercício 03
-      // function addTagSection() {
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-      //   console.log(elementSectionCenter);
-      // }
-      // addTagSection();
-
-      // Exercício 04
-      // function addTagParagraph() {
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-
-      //   const paragraph = document.createElement("p");
-      //   paragraph.innerHTML = "Texto Show";
-      //   elementSectionCenter.appendChild(paragraph);
-      //   console.log(paragraph);
-      // }
-      // addTagParagraph();
-
-      // Exercício 05
-      // function addTagSectionLeft() {
-      //   const elementH1 = document.createElement("h1");
-      //   elementH1.innerText = "Exercício - JavaScript DOM";
-      //   document.body.appendChild(elementH1);
-
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-
-      //   const paragraph = document.createElement("p");
-      //   paragraph.innerHTML = "Texto Show";
-      //   elementSectionCenter.appendChild(paragraph);
-
-      //   const elementSectionLeft = document.createElement("section");
-      //   elementSectionLeft.className = "left-content";
-      //   elementMain.appendChild(elementSectionLeft);
-      //   console.log(elementSectionLeft);
-      // }
-      // addTagSectionLeft();
-
-      // Exercício 06
-      // function addTagSectionRight() {
-      //   const elementH1 = document.createElement("h1");
-      //   elementH1.innerText = "Exercício - JavaScript DOM";
-      //   document.body.appendChild(elementH1);
-
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-
-      //   const paragraph = document.createElement("p");
-      //   paragraph.innerHTML = "Texto Show";
-      //   elementSectionCenter.appendChild(paragraph);
-
-      //   const elementSectionLeft = document.createElement("section");
-      //   elementSectionLeft.className = "left-content";
-      //   elementMain.appendChild(elementSectionLeft);
-
-      //   const elementSectionRight = document.createElement("section");
-      //   elementSectionRight.className = "right-content";
-      //   elementMain.appendChild(elementSectionRight);
-      //   console.log(elementSectionRight);
-      // }
-      // addTagSectionRight();
-
-      // Exercício 07
-      // function addTagImage() {
-      //   const elementH1 = document.createElement("h1");
-      //   elementH1.innerText = "Exercício - JavaScript DOM";
-      //   document.body.appendChild(elementH1);
-
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-
-      //   const paragraph = document.createElement("p");
-      //   paragraph.innerHTML = "Texto Show";
-      //   elementSectionCenter.appendChild(paragraph);
-
-      //   const elementSectionLeft = document.createElement("section");
-      //   elementSectionLeft.className = "left-content";
-      //   elementMain.appendChild(elementSectionLeft);
-
-      //   const elementSectionRight = document.createElement("section");
-      //   elementSectionRight.className = "right-content";
-      //   elementMain.appendChild(elementSectionRight);
-
-      //   const elementImg = document.createElement("img");
-      //   elementImg.className = "small-image";
-      //   elementImg.src = "https://picsum.photos/200";
-      //   elementSectionLeft.appendChild(elementImg);
-      //   console.log(elementImg);
-      // }
-      // addTagImage();
-
-      // Exercício 08
-      // function addElementUl() {
-      //   const elementH1 = document.createElement("h1");
-      //   elementH1.innerText = "Exercício - JavaScript DOM";
-      //   document.body.appendChild(elementH1);
-
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-
-      //   const paragraph = document.createElement("p");
-      //   paragraph.innerHTML = "Texto Show";
-      //   elementSectionCenter.appendChild(paragraph);
-
-      //   const elementSectionLeft = document.createElement("section");
-      //   elementSectionLeft.className = "left-content";
-      //   elementMain.appendChild(elementSectionLeft);
-
-      //   const elementSectionRight = document.createElement("section");
-      //   elementSectionRight.className = "right-content";
-      //   elementMain.appendChild(elementSectionRight);
-
-      //   const elementImg = document.createElement("img");
-      //   elementImg.className = "small-image";
-      //   elementImg.src = "https://picsum.photos/200";
-      //   elementSectionLeft.appendChild(elementImg);
-
-      //   const elementUl = document.createElement("ul");
-      //   elementSectionRight.appendChild(elementUl);
-
-      //   const arrayNumbers = [
-      //     "Um",
-      //     "Dois",
-      //     "Três",
-      //     "Quatro",
-      //     "Cinco",
-      //     "Seis",
-      //     "Sete",
-      //     "Oito",
-      //     "Nove",
-      //     "Dez",
-      //   ];
-      //   for (let num in arrayNumbers) {
-      //     const elementLi = document.createElement("li");
-      //     elementLi.innerHTML = arrayNumbers[num];
-      //     elementUl.appendChild(elementLi);
-      //   }
-
-      //   console.log(elementUl);
-      // }
-      // addElementUl();
-
-      // Exercício 09
-      // function addTagH3() {
-      //   const elementH1 = document.createElement("h1");
-      //   elementH1.innerText = "Exercício - JavaScript DOM";
-      //   document.body.appendChild(elementH1);
-
-      //   const elementMain = document.createElement("main");
-      //   elementMain.className = "main-content";
-      //   document.body.appendChild(elementMain);
-
-      //   const elementSectionCenter = document.createElement("section");
-      //   elementSectionCenter.className = "center-content";
-      //   elementMain.appendChild(elementSectionCenter);
-
-      //   const paragraph = document.createElement("p");
-      //   paragraph.innerHTML = "Texto Show";
-      //   elementSectionCenter.appendChild(paragraph);
-
-      //   const elementSectionLeft = document.createElement("section");
-      //   elementSectionLeft.className = "left-content";
-      //   elementMain.appendChild(elementSectionLeft);
-
-      //   const elementSectionRight = document.createElement("section");
-      //   elementSectionRight.className = "right-content";
-      //   elementMain.appendChild(elementSectionRight);
-
-      //   const elementImg = document.createElement("img");
-      //   elementImg.className = "small-image";
-      //   elementImg.src = "https://picsum.photos/200";
-      //   elementSectionLeft.appendChild(elementImg);
-
-      //   const elementUl = document.createElement("ul");
-      //   elementSectionRight.appendChild(elementUl);
-
-      //   const arrayNumbers = [
-      //     "Um",
-      //     "Dois",
-      //     "Três",
-      //     "Quatro",
-      //     "Cinco",
-      //     "Seis",
-      //     "Sete",
-      //     "Oito",
-      //     "Nove",
-      //     "Dez",
-      //   ];
-      //   for (let num in arrayNumbers) {
-      //     const elementLi = document.createElement("li");
-      //     elementLi.innerHTML = arrayNumbers[num];
-      //     elementUl.appendChild(elementLi);
-      //   }
-
-      //   for (let index = 1; index <= 3; index += 1) {
-      //   const elementH3 = document.createElement('h3');
-      //   elementH3.innerHTML = 'Show ' + index;
-      //   elementMain.appendChild(elementH3);
-      // }
-
-      //   console.log(elementMain);
-      // }
-      // addTagH3();
-
-      // Estrutura para alterações e remoçoes
-
-      const elementH1 = document.createElement("h1");
-      elementH1.innerText = "Exercício - JavaScript DOM";
-      document.body.appendChild(elementH1);
-
-      const elementMain = document.createElement("main");
-      elementMain.className = "main-content";
-      document.body.appendChild(elementMain);
-
-      const elementSectionCenter = document.createElement("section");
-      elementSectionCenter.className = "center-content";
-      elementMain.appendChild(elementSectionCenter);
-
-      const paragraph = document.createElement("p");
-      paragraph.innerHTML = "Texto Show";
-      elementSectionCenter.appendChild(paragraph);
-
-      const elementSectionLeft = document.createElement("section");
-      elementSectionLeft.className = "left-content";
-      elementMain.appendChild(elementSectionLeft);
-
-      const elementSectionRight = document.createElement("section");
-      elementSectionRight.className = "right-content";
-      elementMain.appendChild(elementSectionRight);
-
-      const elementImg = document.createElement("img");
-      elementImg.className = "small-image";
-      elementImg.src = "https://picsum.photos/200";
-      elementSectionLeft.appendChild(elementImg);
-
-      const elementUl = document.createElement("ul");
-      elementSectionRight.appendChild(elementUl);
-      const arrayNumbers = [
-        "Um",
-        "Dois",
-        "Três",
-        "Quatro",
-        "Cinco",
-        "Seis",
-        "Sete",
-        "Oito",
-        "Nove",
-        "Dez",
-      ];
-      for (let num in arrayNumbers) {
-        const elementLi = document.createElement("li");
-        elementLi.innerHTML = arrayNumbers[num];
-        elementUl.appendChild(elementLi);
-      }
-
-      for (let index = 1; index <= 3; index += 1) {
-        const elementH3 = document.createElement("h3");
-        elementH3.innerHTML = "Show " + index;
-        elementMain.appendChild(elementH3);
-      }
-
-      // Exercício 10
-      const title = document.querySelector("h1");
-      title.className = "title";
-
-      // Exercício 11
-      const elementsH3 = document.getElementsByTagName("h3");
-      for (let index = 0; index < 3; index += 1) {
-        elementsH3[index].className = "description";
-      }
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // Exercício 01
+    // function addTag() {
+    //   const elementH1 = document.createElement("h1");
+    //   elementH1.innerText = "Exercício - JavaScript DOM";
+    //   document.body.appendChild(elementH1);
+    //   console.log(elementH1);
+    // }
+    // addTag();
+
+    // Exercício 02
+    // function addTagMain() {
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+    //   console.log(elementMain);
+    // }
+    // addTagMain();
+
+    // Exercício 03
+    // function addTagSection() {
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+    //   console.log(elementSectionCenter);
+    // }
+    // addTagSection();
+
+    // Exercício 04
+    // function addTagParagraph() {
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+
+    //   const paragraph = document.createElement("p");
+    //   paragraph.innerHTML = "Texto Show";
+    //   elementSectionCenter.appendChild(paragraph);
+    //   console.log(paragraph);
+    // }
+    // addTagParagraph();
+
+    // Exercício 05
+    // function addTagSectionLeft() {
+    //   const elementH1 = document.createElement("h1");
+    //   elementH1.innerText = "Exercício - JavaScript DOM";
+    //   document.body.appendChild(elementH1);
+
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+
+    //   const paragraph = document.createElement("p");
+    //   paragraph.innerHTML = "Texto Show";
+    //   elementSectionCenter.appendChild(paragraph);
+
+    //   const elementSectionLeft = document.createElement("section");
+    //   elementSectionLeft.className = "left-content";
+    //   elementMain.appendChild(elementSectionLeft);
+    //   console.log(elementSectionLeft);
+    // }
+    // addTagSectionLeft();
+
+    // Exercício 06
+    // function addTagSectionRight() {
+    //   const elementH1 = document.createElement("h1");
+    //   elementH1.innerText = "Exercício - JavaScript DOM";
+    //   document.body.appendChild(elementH1);
+
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+
+    //   const paragraph = document.createElement("p");
+    //   paragraph.innerHTML = "Texto Show";
+    //   elementSectionCenter.appendChild(paragraph);
+
+    //   const elementSectionLeft = document.createElement("section");
+    //   elementSectionLeft.className = "left-content";
+    //   elementMain.appendChild(elementSectionLeft);
+
+    //   const elementSectionRight = document.createElement("section");
+    //   elementSectionRight.className = "right-content";
+    //   elementMain.appendChild(elementSectionRight);
+    //   console.log(elementSectionRight);
+    // }
+    // addTagSectionRight();
+
+    // Exercício 07
+    // function addTagImage() {
+    //   const elementH1 = document.createElement("h1");
+    //   elementH1.innerText = "Exercício - JavaScript DOM";
+    //   document.body.appendChild(elementH1);
+
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+
+    //   const paragraph = document.createElement("p");
+    //   paragraph.innerHTML = "Texto Show";
+    //   elementSectionCenter.appendChild(paragraph);
+
+    //   const elementSectionLeft = document.createElement("section");
+    //   elementSectionLeft.className = "left-content";
+    //   elementMain.appendChild(elementSectionLeft);
+
+    //   const elementSectionRight = document.createElement("section");
+    //   elementSectionRight.className = "right-content";
+    //   elementMain.appendChild(elementSectionRight);
+
+    //   const elementImg = document.createElement("img");
+    //   elementImg.className = "small-image";
+    //   elementImg.src = "https://picsum.photos/200";
+    //   elementSectionLeft.appendChild(elementImg);
+    //   console.log(elementImg);
+    // }
+    // addTagImage();
+
+    // Exercício 08
+    // function addElementUl() {
+    //   const elementH1 = document.createElement("h1");
+    //   elementH1.innerText = "Exercício - JavaScript DOM";
+    //   document.body.appendChild(elementH1);
+
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+
+    //   const paragraph = document.createElement("p");
+    //   paragraph.innerHTML = "Texto Show";
+    //   elementSectionCenter.appendChild(paragraph);
+
+    //   const elementSectionLeft = document.createElement("section");
+    //   elementSectionLeft.className = "left-content";
+    //   elementMain.appendChild(elementSectionLeft);
+
+    //   const elementSectionRight = document.createElement("section");
+    //   elementSectionRight.className = "right-content";
+    //   elementMain.appendChild(elementSectionRight);
+
+    //   const elementImg = document.createElement("img");
+    //   elementImg.className = "small-image";
+    //   elementImg.src = "https://picsum.photos/200";
+    //   elementSectionLeft.appendChild(elementImg);
+
+    //   const elementUl = document.createElement("ul");
+    //   elementSectionRight.appendChild(elementUl);
+
+    //   const arrayNumbers = [
+    //     "Um",
+    //     "Dois",
+    //     "Três",
+    //     "Quatro",
+    //     "Cinco",
+    //     "Seis",
+    //     "Sete",
+    //     "Oito",
+    //     "Nove",
+    //     "Dez",
+    //   ];
+    //   for (let num in arrayNumbers) {
+    //     const elementLi = document.createElement("li");
+    //     elementLi.innerHTML = arrayNumbers[num];
+    //     elementUl.appendChild(elementLi);
+    //   }
+
+    //   console.log(elementUl);
+    // }
+    // addElementUl();
+
+    // Exercício 09
+    // function addTagH3() {
+    //   const elementH1 = document.createElement("h1");
+    //   elementH1.innerText = "Exercício - JavaScript DOM";
+    //   document.body.appendChild(elementH1);
+
+    //   const elementMain = document.createElement("main");
+    //   elementMain.className = "main-content";
+    //   document.body.appendChild(elementMain);
+
+    //   const elementSectionCenter = document.createElement("section");
+    //   elementSectionCenter.className = "center-content";
+    //   elementMain.appendChild(elementSectionCenter);
+
+    //   const paragraph = document.createElement("p");
+    //   paragraph.innerHTML = "Texto Show";
+    //   elementSectionCenter.appendChild(paragraph);
+
+    //   const elementSectionLeft = document.createElement("section");
+    //   elementSectionLeft.className = "left-content";
+    //   elementMain.appendChild(elementSectionLeft);
+
+    //   const elementSectionRight = document.createElement("section");
+    //   elementSectionRight.className = "right-content";
+    //   elementMain.appendChild(elementSectionRight);
+
+    //   const elementImg = document.createElement("img");
+    //   elementImg.className = "small-image";
+    //   elementImg.src = "https://picsum.photos/200";
+    //   elementSectionLeft.appendChild(elementImg);
+
+    //   const elementUl = document.createElement("ul");
+    //   elementSectionRight.appendChild(elementUl);
+
+    //   const arrayNumbers = [
+    //     "Um",
+    //     "Dois",
+    //     "Três",
+    //     "Quatro",
+    //     "Cinco",
+    //     "Seis",
+    //     "Sete",
+    //     "Oito",
+    //     "Nove",
+    //     "Dez",
+    //   ];
+    //   for (let num in arrayNumbers) {
+    //     const elementLi = document.createElement("li");
+    //     elementLi.innerHTML = arrayNumbers[num];
+    //     elementUl.appendChild(elementLi);
+    //   }
+
+    //   for (let index = 1; index <= 3; index += 1) {
+    //   const elementH3 = document.createElement('h3');
+    //   elementH3.innerHTML = 'Show ' + index;
+    //   elementMain.appendChild(elementH3);
+    // }
+
+    //   console.log(elementMain);
+    // }
+    // addTagH3();
+
+    // Estrutura para alterações e remoçoes
+
+    const elementH1 = document.createElement("h1");
+    elementH1.innerText = "Exercício - JavaScript DOM";
+    document.body.appendChild(elementH1);
+
+    const elementMain = document.createElement("main");
+    elementMain.className = "main-content";
+    document.body.appendChild(elementMain);
+
+    const elementSectionCenter = document.createElement("section");
+    elementSectionCenter.className = "center-content";
+    elementMain.appendChild(elementSectionCenter);
+
+    const paragraph = document.createElement("p");
+    paragraph.innerHTML = "Texto Show";
+    elementSectionCenter.appendChild(paragraph);
+
+    const elementSectionLeft = document.createElement("section");
+    elementSectionLeft.className = "left-content";
+    elementMain.appendChild(elementSectionLeft);
+
+    const elementSectionRight = document.createElement("section");
+    elementSectionRight.className = "right-content";
+    elementMain.appendChild(elementSectionRight);
+
+    const elementImg = document.createElement("img");
+    elementImg.className = "small-image";
+    elementImg.src = "https://picsum.photos/200";
+    elementSectionLeft.appendChild(elementImg);
+
+    const elementUl = document.createElement("ul");
+    elementSectionRight.appendChild(elementUl);
+    const arrayNumbers = [
+      "Um",
+      "Dois",
+      "Três",
+      "Quatro",
+      "Cinco",
+      "Seis",
+      "Sete",
+      "Oito",
+      "Nove",
+      "Dez",
+    ];
+    for (let num in arrayNumbers) {
+      const elementLi = document.createElement("li");
+      elementLi.innerHTML = arrayNumbers[num];
+      elementUl.appendChild(elementLi);
+    }
+
+    for (let index = 1; index <= 3; index += 1) {
+      const elementH3 = document.createElement("h3");
+      elementH3.innerHTML = "Show " + index;
+      elementMain.appendChild(elementH3);
+    }
+
+    // Exercício 10
+    const title = document.querySelector("h1");
+    title.className = "title";
+
+    // Exercício 11
+    const elementsH3 = document.getElementsByTagName("h3");
+    for (let index = 0; index < 3; index += 1) {
+      elementsH3[index].className = "description";
+    }
+
+    // Exercício 12
+    const sectionLeftContent =
+      document.getElementsByClassName("left-content")[0];
+    elementMain.removeChild(sectionLeftContent);
+  </script>
+</body>
+
 </html>
