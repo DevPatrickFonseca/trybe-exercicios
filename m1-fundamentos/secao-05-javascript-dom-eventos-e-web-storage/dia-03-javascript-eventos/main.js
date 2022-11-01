@@ -32,3 +32,14 @@ input.addEventListener("input", (event) => {
 myWebpage.addEventListener("dblclick", () => {
   window.location.replace("https://github.com/PFonsecaFV");
 });
+
+// 4 - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
+// a cor do mesmo;
+
+myWebpage.addEventListener("mouseover", (event) => {
+  event.target.style.color = "blue";
+});
+
+myWebpage.addEventListener("mouseout", (event) => {
+  event.target.style.color = "unset";
+});
