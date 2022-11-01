@@ -106,7 +106,32 @@
       // addTagParagraph();
 
       // Exercício 05
-      function addTagSectionLeft() {
+      // function addTagSectionLeft() {
+      //   const elementH1 = document.createElement("h1");
+      //   elementH1.innerText = "Exercício - JavaScript DOM";
+      //   document.body.appendChild(elementH1);
+
+      //   const elementMain = document.createElement("main");
+      //   elementMain.className = "main-content";
+      //   document.body.appendChild(elementMain);
+
+      //   const elementSectionCenter = document.createElement("section");
+      //   elementSectionCenter.className = "center-content";
+      //   elementMain.appendChild(elementSectionCenter);
+
+      //   const paragraph = document.createElement("p");
+      //   paragraph.innerHTML = "Texto Show";
+      //   elementSectionCenter.appendChild(paragraph);
+
+      //   const elementSectionLeft = document.createElement("section");
+      //   elementSectionLeft.className = "left-content";
+      //   elementMain.appendChild(elementSectionLeft);
+      //   console.log(elementSectionLeft);
+      // }
+      // addTagSectionLeft();
+
+      // Exercício 06
+      function addTagSectionRight() {
         const elementH1 = document.createElement("h1");
         elementH1.innerText = "Exercício - JavaScript DOM";
         document.body.appendChild(elementH1);
@@ -126,9 +151,13 @@
         const elementSectionLeft = document.createElement("section");
         elementSectionLeft.className = "left-content";
         elementMain.appendChild(elementSectionLeft);
-        console.log(elementSectionLeft);
+
+        const elementSectionRight = document.createElement("section");
+        elementSectionRight.className = "right-content";
+        elementMain.appendChild(elementSectionRight);
+        console.log(elementSectionRight);
       }
-      addTagSectionLeft();
+      addTagSectionRight();
     </script>
   </body>
 </html>
