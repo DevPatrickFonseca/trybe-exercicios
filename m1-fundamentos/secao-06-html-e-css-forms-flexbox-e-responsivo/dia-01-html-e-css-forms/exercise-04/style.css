@@ -1,0 +1,30 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: darkgreen;
+}
+
+#buttons, #input-reset, #input-submit {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+fieldset {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgb(200, 248, 200);
+}
+
+#nome-completo, #input-email {
+  margin: 5px;
+  padding: 5px;
+}
+
+p {
+  font-weight: 800;
+}
