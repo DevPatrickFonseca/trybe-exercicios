@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox - Flex Flow</title>
+    <style>
+      body {
+        background-color: rgb(143, 235, 238);
+      }
+      h1 {
+        text-align: center;
+        color: rgb(4, 57, 10);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .box {
+        color: #9069ef;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .box-container-row {
+        background-color: #0fa36b;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .box-container-column {
+        background-color: #a3a00f;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box-container-row-reverse {
+        background-color: #a3600f;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      .box-container-column-reverse {
+        background-color: #0f9ca3;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .box-container-wrap {
+        background-color: #8d0fa3;
+        display: flex;
+        flex-flow: wrap;
+      }
+
+      .box-container-nowrap {
+        background-color: #a3970f;
+        display: flex;
+        flex-flow: nowrap;
+      }
+
+      .box-container-row-reverse-nowrap {
+        background-color: #0fa36b;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Flexbox - Flex Flow</h1>
+    </header>
+    <section>
+      <h1>flex-direction > row</h1>
+      <div class="box-container-row">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+    <section>
+      <h1>flex-direction > column</h1>
+      <div class="box-container-column">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+    <section>
+      <h1>flex-direction > row-reverse</h1>
+      <div class="box-container-row-reverse">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+    <section>
+      <h1>flex-direction > column-reverse</h1>
+      <div class="box-container-column-reverse">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+    <section>
+      <h1>flex-flow > wrap</h1>
+      <div class="box-container-wrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+    <section>
+      <h1>flex-flow > nowrap</h1>
+      <div class="box-container-nowrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+    <section>
+      <h1>flex-flow > row-reverse-nowrap</h1>
+      <div class="box-container-row-reverse-nowrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+  </body>
+</html>
