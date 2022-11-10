@@ -14,8 +14,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 > #### :heavy_check_mark: Seção 02 - Git e GitHub 
 > #### :heavy_check_mark: Seção 03 - Introdução à HTML e CSS
 > #### :heavy_check_mark: Seção 04 - Introdução à JavaScript
-> #### :hourglass_flowing_sand: Seção 05 - JavaScript: DOM, Eventos e Web Storage
-> #### Seção 06 - HTML e CSS: Forms, Flexbox e Responsivo
+> #### :heavy_check_mark: Seção 05 - JavaScript: DOM, Eventos e Web Storage
+> #### :hourglass_flowing_sand: Seção 06 - HTML e CSS: Forms, Flexbox e Responsivo
 > #### Seção 07 - Introdução à JavaScript ES6 e Testes Unitários
 > #### Seção 08 - Higher Order Functions do JavaScript ES6
 
