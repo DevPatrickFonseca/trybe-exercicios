@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Align Content</title>
+    <style>
+      body {
+        background-color: rgb(143, 235, 238);
+      }
+      h1 {
+        text-align: center;
+        color: rgb(4, 57, 10);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .box {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .box-container {
+        /* Padrão a seguir - Abaixo são apenas exemplos */
+        background-color: #0fa36b;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+      }
+
+      .box-container {
+        /* Padrão a seguir - Abaixo são apenas exemplos */
+        background-color: #0fa36b;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+      }
+
+      .box-container-center {
+        background-color: #0fa36b;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        align-content: center;
+      }
+      .box-container-flex-start {
+        background-color: #0f2da3;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        align-content: flex-start;
+      }
+      .box-container-flex-end {
+        background-color: #a3480f;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        align-content: flex-end;
+      }
+      .box-container-stretch {
+        background-color: #a38d0f;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        align-content: stretch;
+      }
+      .box-container-space-around {
+        background-color: #0fa397;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        align-content: space-around;
+      }
+      .box-container-space-between {
+        background-color: #a30f97;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        align-content: space-between;
+      }
+    </style>
+
+  </head>
+  <header>
+    <h1>Flexbox - Align Content</h1>
+  </header>
+  <section>
+    <h1>align-content > center</h1>
+  <body>
+    <div class="box-container-center">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content > flex-start</h1>
+  <body>
+    <div class="box-container-flex-start">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content > flex-end</h1>
+  <body>
+    <div class="box-container-flex-end">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content > stretch</h1>
+  <body>
+    <div class="box-container-stretch">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content > space-around</h1>
+  <body>
+    <div class="box-container-space-around">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </section>
+  <section>
+    <h1>align-content > space-between</h1>
+  <body>
+    <div class="box-container-space-between">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </section>
+  
+  </body>
+</html>
