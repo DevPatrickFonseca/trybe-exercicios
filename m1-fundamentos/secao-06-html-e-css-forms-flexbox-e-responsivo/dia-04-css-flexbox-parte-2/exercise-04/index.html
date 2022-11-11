@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEXBOX - SHRINK</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #a9ddb6;
+      }
+      section {
+        text-align: center;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        background-color: #ffffff;
+        display: flex;
+        margin: 10px;
+      }
+
+      .container {
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 80%;
+        border: 1px solid black;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-basis: 500px;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+      /* Referencia 01 */
+      .one {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 1;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 3;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 2;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 1;
+        list-style: none;
+      }
+      /* Referencia 02 - Flex */
+
+      .container1 li{
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 80%;
+        border: 1px solid black;
+      }
+
+      .container1 li:nth-child(1){
+        flex: 1 1 auto;
+      }
+
+      .one1 {
+        background-color: #fbd26a;
+        display: flex;
+        list-style: none;
+      }
+
+      .two2 {
+        background-color: #faa488;
+        display: flex;
+        list-style: none;
+      }
+
+      .three3 {
+        background-color: #9069ef;
+        display: flex;
+        list-style: none;
+      }
+
+      .four4 {
+        background-color: #006472;
+        display: flex;
+        list-style: none;
+      }
+
+    </style>
+  </head>
+  <header>
+    <h1>CSS FLEXBOX - SHRINK</h1>
+  </header>
+  <body>
+    <section>
+      <h1>CSS FLEXBOX - SHRINK</h1>
+      <ul class="container">
+        <li class="box one">1</li>
+        <li class="box two">2</li>
+        <li class="box three">3</li>
+        <li class="box four">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>CSS FLEXBOX - SHRINK >> flex: 1 1 auto</h1>
+      <ul class="container1">
+        <li class="box one1">1</li>
+        <li class="box two2">2</li>
+        <li class="box three3">3</li>
+        <li class="box four4">4</li>
+      </ul>
+    </section>
+  </body>
+</html>
