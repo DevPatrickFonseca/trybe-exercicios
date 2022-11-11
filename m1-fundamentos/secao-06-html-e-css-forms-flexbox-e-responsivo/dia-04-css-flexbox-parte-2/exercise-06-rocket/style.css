@@ -82,10 +82,11 @@ body {
   flex-direction: column;
   margin: 20px;
   flex-basis: 350px; /* 5 */
+  align-self: center; /* 6 */
+  flex-grow: 1; /* 6 */
 }
 
-.aside-container h3,
-h4 {
+.aside-container h3, h4 {
   margin-bottom: 10px;
   text-align: center;
 }
