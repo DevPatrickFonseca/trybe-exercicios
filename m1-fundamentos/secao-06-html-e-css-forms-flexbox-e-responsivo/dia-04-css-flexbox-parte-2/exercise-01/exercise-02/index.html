@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEXBOX - ORDER</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #a9ddb6;
+      }
+      section {
+        text-align: center;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        background-color: #ffffff;
+        display: flex;
+        margin: 10px;
+      }
+
+      .container {
+        border: 1px solid black;
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 500px;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 125px;
+      }
+      /* Referencia */
+      /* 0 */
+      .one {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 0;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 0;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 0;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 0;
+        list-style: none;
+      }
+      
+      /* 1 */
+      .one1 {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 1;
+        list-style: none;
+      }
+
+      .two1 {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 2;
+        list-style: none;
+      }
+
+      .three1 {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 3;
+        list-style: none;
+      }
+
+      .four1 {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: 4;
+        list-style: none;
+      }
+      /* -1 */
+      .one-1 {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: -1;
+        list-style: none;
+      }
+
+      .two-1 {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: -2;
+        list-style: none;
+      }
+
+      .three-1 {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: -3;
+        list-style: none;
+      }
+
+      .four-1 {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade order. */
+        order: -4;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <header>
+    <h1>CSS FLEXBOX - ORDER</h1>
+  </header>
+  <body>
+    <section>
+      <h1>order > 0</h1>
+      <ul class="container">
+        <li class="box one">1</li>
+        <li class="box two">2</li>
+        <li class="box three">3</li>
+        <li class="box four">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>order > 1</h1>
+      <ul class="container">
+        <li class="box one1">1</li>
+        <li class="box two1">2</li>
+        <li class="box three1">3</li>
+        <li class="box four1">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>order > -1</h1>
+      <ul class="container">
+        <li class="box one-1">1</li>
+        <li class="box two-1">2</li>
+        <li class="box three-1">3</li>
+        <li class="box four-1">4</li>
+      </ul>
+    </section>
+  </body>
+</html>
