@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEXBOX - FLEX-GROW</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #a9ddb6;
+      }
+      section {
+        text-align: center;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        background-color: #ffffff;
+        display: flex;
+        margin: 10px;
+      }
+
+      .container {
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 80%;
+        border: 1px solid black;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .one {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .one1 {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .two1 {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 2;
+        list-style: none;
+      }
+
+      .three1 {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .four1 {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 2;
+        list-style: none;
+      }
+
+    
+      .one2 {
+        background-color: #fbd26a;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 1;
+        list-style: none;
+      }
+
+      .two2 {
+        background-color: #faa488;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 2;
+        list-style: none;
+      }
+
+      .three2 {
+        background-color: #9069ef;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 3;
+        list-style: none;
+      }
+
+      .four2 {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade grow. */
+        flex-grow: 24;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <header>
+    <h1>CSS FLEXBOX - FLEX-GROW</h1>
+  </header>
+  <body>
+    <section>
+      <h1>flex-grow > 1 1 1 1</h1>
+      <ul class="container">
+        <li class="box one">1</li>
+        <li class="box two">2</li>
+        <li class="box three">3</li>
+        <li class="box four">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>flex-grow > 1 2 1 2 </h1>
+      <ul class="container">
+        <li class="box one1">1</li>
+        <li class="box two1">2</li>
+        <li class="box three1">3</li>
+        <li class="box four1">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>flex-grow > 1 2 3 4 </h1>
+      <ul class="container">
+        <li class="box one2">1</li>
+        <li class="box two2">2</li>
+        <li class="box three2">3</li>
+        <li class="box four2">4</li>
+      </ul>
+    </section>
+  </body>
+</html>
