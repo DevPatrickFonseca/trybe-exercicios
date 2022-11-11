@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEXBOX - ALIGN SELF</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #a9ddb6;
+      }
+      section {
+        text-align: center;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        background-color: #ffffff;
+        display: flex;
+        margin: 10px;
+      }
+
+      .container {
+        border: 1px solid black;
+        display: flex;
+        height: 300px;
+        margin: auto;
+        width: 500px;
+      }
+
+      .keep {
+        align-self: center;
+        background-color: #faa488;
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        list-style: none;
+      }
+
+      .change {
+        /* Altere a propriedade align-self. */
+        align-self: center;
+        background-color: #fbd26a;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+      }
+      .change-flex-start {
+        align-self: center;
+        background-color: #c3fb6a;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+        align-self: flex-start;
+      }
+      .change-flex-end {
+        align-self: center;
+        background-color: #6a74fb;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+        align-self: flex-end;
+      }
+      .change-stretch {
+        align-self: center;
+        background-color: #fb6afb;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+        align-self: stretch;
+      }
+      .change-baseline {
+        align-self: center;
+        background-color: #fbd26a;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+        align-self: baseline;
+      }
+      .change-center {
+        align-self: center;
+        background-color: #6afbe3;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS FLEXBOX - ALIGN SELF</h1>
+    </header>
+    <section>
+      <h1>align-self > flex-start</h1>
+      <ul class="container">
+        <li class="keep">REFERÊNCIA</li>
+        <li class="change-flex-start">ELEMENTO TESTE</li>
+        <li class="keep">REFERÊNCIA</li>
+      </ul>
+    </section>
+    <section>
+      <h1>align-self > flex-end</h1>
+      <ul class="container">
+        <li class="keep">REFERÊNCIA</li>
+        <li class="change-flex-end">ELEMENTO TESTE</li>
+        <li class="keep">REFERÊNCIA</li>
+      </ul>
+    </section>
+    <section>
+      <h1>align-self > stretch</h1>
+      <ul class="container">
+        <li class="keep">REFERÊNCIA</li>
+        <li class="change-stretch">ELEMENTO TESTE</li>
+        <li class="keep">REFERÊNCIA</li>
+      </ul>
+    </section>
+    <section>
+      <h1>align-self > baseline</h1>
+      <ul class="container">
+        <li class="keep">REFERÊNCIA</li>
+        <li class="change-baseline">ELEMENTO TESTE</li>
+        <li class="keep">REFERÊNCIA</li>
+      </ul>
+    </section>
+    <section>
+      <h1>align-self > center</h1>
+      <ul class="container">
+        <li class="keep">REFERÊNCIA</li>
+        <li class="change-center">ELEMENTO TESTE</li>
+        <li class="keep">REFERÊNCIA</li>
+      </ul>
+    </section>
+  </body>
+</html>
