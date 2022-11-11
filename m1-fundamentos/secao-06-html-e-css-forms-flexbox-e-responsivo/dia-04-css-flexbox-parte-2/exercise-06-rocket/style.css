@@ -81,6 +81,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  flex-basis: 350px;
 }
 
 .aside-container h3,
