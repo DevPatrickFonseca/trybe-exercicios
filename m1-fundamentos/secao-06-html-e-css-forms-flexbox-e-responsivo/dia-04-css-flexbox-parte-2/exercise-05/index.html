@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FLEXBOX - BASIS</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #a9ddb6;
+      }
+      section {
+        text-align: center;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        background-color: #ffffff;
+        display: flex;
+        margin: 10px;
+      }
+
+      .container {
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 100%;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* Altere a propriedade flex-basis */
+        flex-basis: 500px;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+
+      .box1 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* Altere a propriedade flex-basis */
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+
+      .box2 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* Altere a propriedade flex-basis */
+        flex-basis: 80px;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+
+      .one {
+        background-color: #fbd26a;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #faa488;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069ef;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <header>
+    <h1>CSS FLEXBOX - BASIS</h1>
+  </header>
+  <body>
+    <section>
+      <h1>flex-basis ></h1>
+      <ul class="container">
+        <li class="box one">1</li>
+        <li class="box two">2</li>
+        <li class="box three">3</li>
+        <li class="box four">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>flex-basis > auto</h1>
+      <ul class="container">
+        <li class="box1 one">1</li>
+        <li class="box1 two">2</li>
+        <li class="box1 three">3</li>
+        <li class="box1 four">4</li>
+      </ul>
+    </section>
+    <section>
+      <h1>flex-basis > 80px</h1>
+      <ul class="container">
+        <li class="box2 one">1</li>
+        <li class="box2 two">2</li>
+        <li class="box2 three">3</li>
+        <li class="box2 four">4</li>
+      </ul>
+    </section>
+  </body>
+</html>
