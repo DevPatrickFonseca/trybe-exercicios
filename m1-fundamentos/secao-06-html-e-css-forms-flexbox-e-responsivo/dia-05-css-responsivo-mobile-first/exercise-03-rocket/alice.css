@@ -57,3 +57,31 @@ p {
     line-height: 1.4em;
     text-align: justify;
   }
+}
+
+/* Layout 02 - Médio */
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: rgb(185, 248, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container {
+    flex-wrap: wrap;
+    margin: 16px;
+  }
+
+  header {
+    font-weight: 800;
+  }
+
+  h1, h2, h3 {
+    margin: 16px;
+  }
+
+  p {
+    padding: 5px 16px;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+}
