@@ -54,8 +54,13 @@ figcaption {
   }
 }
 
-/* Exercício 02 - Ajuste o tamanho da fonte; */
-
 body {
+  /* Exercício 02 - Ajuste o tamanho da fonte; */
   font: 1.2em/1.2 Helvetica, aria, sans-serif;
+
+  /* Exercício 03 - Ajuste as margens da página; */
+  margin: 0 3%;
 }
+
+
+
