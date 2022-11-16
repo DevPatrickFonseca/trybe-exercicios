@@ -85,3 +85,31 @@ p {
     text-align: justify;
   }
 }
+
+/* Layout 03 - Grande */
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
+  }
+  .container {
+    flex-wrap: wrap;
+    margin: 16px;
+  }
+
+  header {
+    font-weight: 800;
+  }
+
+  h1, h2, h3 {
+    margin: 16px;
+  }
+
+  p {
+    padding: 0px 16px;
+    line-height: 1.4em;
+    text-align: justify;
+  }
+}
