@@ -5,23 +5,65 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+
+body {
+  /* Exercício 02 - Ajuste o tamanho da fonte; */
+  font: 1.2em/1.2 Helvetica, aria, sans-serif;
+
+  /* Exercício 03 - Ajuste as margens da página; */
+  margin: 0 3%;
+}
+
+/* Modificações textos*/
+
 article {
+  text-align: center;
 }
+
 h1 {
+  font-size: 1.8em;
+  margin: 0.9em 0 0 0;
 }
+
 h2 {
+  font-size: 1.5em;
+  margin: 1.5em 0 0 0;
 }
 
+/* Exercício 04 - Faça as imagens serem mostradas em duas colunas */
 
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Modificações imagens*/
 
 figure {
-	margin: 0;
+  background: rgb(2, 41, 85);
+  border-radius: 5px;
+  color: white;
+  margin: 0 0 25px 0;
+  padding: 10px;
+  text-align: center;
 }
+
 figcaption {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 /* * Referencia */
@@ -40,38 +82,14 @@ figcaption {
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(137, 192, 243);
+    margin: 25px 6%;
   }
-}
 
-@media screen and (max-width: 768px) {
-  body {
-    background-color: rgb(161, 238, 238);
+  figure {
+    width: 45%;
+    margin-right: 4.5%;
   }
-}
-
-body {
-  /* Exercício 02 - Ajuste o tamanho da fonte; */
-  font: 1.2em/1.2 Helvetica, aria, sans-serif;
-
-  /* Exercício 03 - Ajuste as margens da página; */
-  margin: 0 3%;
-}
-
-/* Exercício 04 - Faça as imagens serem mostradas em duas colunas */
-
-img {
-	max-width: 100%;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-}
-
-section {
-  display: flex;
-  flex-flow: row wrap;
 }
 
 /* Exercício 05 - Crie uma nova media query 992px */
@@ -79,5 +97,12 @@ section {
 @media screen and (min-width: 992px) {
   body {
     background-color: rgb(247, 197, 247);
+    margin: 25px 10%;
+    max-width: 1130px;
+  }
+
+  figure {
+    width: 30%;
+    margin-right: 2.5%;
   }
 }
