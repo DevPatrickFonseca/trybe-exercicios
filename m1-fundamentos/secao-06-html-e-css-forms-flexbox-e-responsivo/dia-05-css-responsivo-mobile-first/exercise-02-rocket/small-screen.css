@@ -14,13 +14,9 @@ h1 {
 }
 h2 {
 }
-img {
-	max-width: 100%;
-}
-main {
-}
-section {
-}
+
+
+
 figure {
 	margin: 0;
 }
@@ -62,5 +58,19 @@ body {
   margin: 0 3%;
 }
 
+/* Exercício 04 - Faça as imagens serem mostradas em duas colunas */
 
+img {
+	max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
 
