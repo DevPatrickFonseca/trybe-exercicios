@@ -1,0 +1,64 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+article {
+}
+h1 {
+}
+h2 {
+}
+img {
+	max-width: 100%;
+}
+main {
+}
+section {
+}
+figure {
+	margin: 0;
+}
+figcaption {
+  font-size: .8em;
+}
+
+/* * Referencia */
+
+/* ? max-width: 600px: Telas de celular. (Mobile devices) */
+/* ? min-width: 600px: iPads, Tablets */
+/* ? min-width: 768px: Telas menores, laptops */
+/* ? min-width: 992px: Desktops */
+/* ? min-width: 1200px — Telas grandes, screens e TV. */
+
+/* Realize as seguintes tarefas: */
+
+/* Exercício 01 */
+
+/* Agora que temos um padrão, vamos criar um breakpoint para telas menores de laptops. Para isso nós podemos consultar nossa tabela acima e utilizar o min-width: 768px e quando tivermos em telas menores que 768px esse estilo não vai ser aplicado. Esse será o primeiro breakpoint do layout. Um breakpoint é apenas um ponto onde estamos definindo que o design atual deve mudar. Ok? */
+
+@media screen and (min-width: 768px) { /* Exercício 01 */
+  body {
+
+  }
+}
+
+@media screen and (max-width: 768px) { /* Exercício 01 */
+  body {
+
+  }
+}
+
+/* Exercício 02 - Faça o tamanho da fonte ser maior; */
+
+/* Exercício 03 - Faça o tamanho da fonte dos elementos h1 ser menor; */
+
+/* Exercício 04 - Aumente o espaçamento entre as figuras; */
+
+/* Exercício 05 - Adicione um pouco de margin na página. */
