@@ -76,7 +76,7 @@ p strong {
 
 /* Exercício 01.2 - A segunda div só poderá aparecer se a largura estiver entre 600px e 1000px. */
 
-@media screen and (min-width: 600px) and (max-width: 1000px){
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .card:nth-of-type(2) {
     display: block;
   }
@@ -84,7 +84,16 @@ p strong {
 
 /* Exercício 01.3 - A terceira div não deverá aparecer se nossa tela possuir largura entre 650px e 950px. */
 
+@media screen and (max-width: 650px) {
+  .card:nth-of-type(3) {
+    display: block;
+  }
+}
 
+@media screen and (min-width: 950px) {
+  .card:nth-of-type(3) {
+    display: block;
+  }
+}
 
 /* Exercício 01.4 - Sem alterar a classe trick, faça com que o texto dela apareça somente quando a tela estiver com menos de 500px de largura. */
-
