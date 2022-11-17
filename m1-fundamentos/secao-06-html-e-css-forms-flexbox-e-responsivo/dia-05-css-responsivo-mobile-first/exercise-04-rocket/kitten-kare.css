@@ -46,7 +46,7 @@ body {
 
 #content-container {
   width: 100%;
-  background: #FFF;
+  background: #fff;
 }
 
 #content {
@@ -91,10 +91,12 @@ body {
 /* O elemento com id aside deve ser mostrado abaixo do conteúdo principal. */
 
 @media print {
-  #header, #navigation, #footer {
+  #header,
+  #navigation,
+  #footer {
     display: none;
   }
-  
+
   #content {
     width: 100%;
     margin-right: 0px;
@@ -105,5 +107,57 @@ body {
     display: flex;
     flex-direction: column;
     page-break-inside: avoid;
+  }
+}
+
+/*? Realize as seguintes tarefas: */
+
+/*? Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com as imagens abaixo quando a tela for redimensionada para larguras menores.  */
+
+/** Especificamente: */
+
+/* Exercicio 02 - Exibir em dispositivos menores */
+
+/* O elemento com id aside deve desaparecer;*/
+/* O elemento body não deve ter padding;*/
+/* As imagens não devem exceder a largura da tela;*/
+/* Os itens dentro do elemento navigation devem aparecer cada um em sua própria linha;*/
+/* O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela, mesmo após a pessoa usuária rolar a página. */
+
+@media screen and (max-width: 600px) {
+  #aside {
+    display: none;
+  }
+
+  body {
+    padding: 0px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  #navigation {
+    margin-top: 75px;
+  }
+
+  #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+  }
+
+  #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+  }
+
+  #content {
+    text-align: justify;
   }
 }
