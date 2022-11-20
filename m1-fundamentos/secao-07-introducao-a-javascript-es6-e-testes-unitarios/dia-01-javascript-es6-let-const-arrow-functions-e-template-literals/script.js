@@ -39,23 +39,7 @@ const customer1 = {
   job: 'Teacher',
 };
 
-const customer2 = {
-  firstName: 'Maria',
-  age: 23,
-  job: 'Medic',
-};
-
-// Continuação
-
-const customer1 = {
-  firstName: 'Roberto',
-  age: 22,
-  job: 'Teacher',
-};
-
 console.log(customer1.firstName);
-
-// Continuação
 
 const customer2 = {
   firstName: 'Maria',
@@ -64,3 +48,27 @@ const customer2 = {
 };
 
 console.log(customer2['firstName']);
+
+// Exercicio 01.3 - Nova Propriedade
+
+objeto.novaPropriedade = 'valor';
+
+const customer1 = {
+  firstName: 'Roberto',
+  age: 22,
+  job: 'Teacher',
+};
+
+console.log(customer1);
+customer1.lastName = 'Faria';
+console.log(customer1);
+
+const customer2 = {
+  firstName: 'Maria',
+  age: 23,
+  job: 'Medic',
+};
+
+console.log(customer2);
+customer2['lastName'] = 'Silva';
+console.log(customer2);
