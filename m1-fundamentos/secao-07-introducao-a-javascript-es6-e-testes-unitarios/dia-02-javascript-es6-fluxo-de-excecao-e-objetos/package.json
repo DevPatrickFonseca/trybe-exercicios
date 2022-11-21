@@ -1,0 +1,15 @@
+{
+  "name": "dia-02-javascript-es6-fluxo-de-excecao-e-objetos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
