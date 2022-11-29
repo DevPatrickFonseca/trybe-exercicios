@@ -32,7 +32,7 @@
 - [x] 4.5 - ~~JavaScript ES6 - let, const, arrow functions e template literals~~
 - [x] 4.6 - ~~Projeto~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
 
-### :hourglass_flowing_sand: Seção 05 - [JavaScript: DOM, Eventos e Web Storage](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-05-javascript-dom-eventos-e-web-storage)
+### :heavy_check_mark: Seção 05 - [JavaScript: DOM, Eventos e Web Storage](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-05-javascript-dom-eventos-e-web-storage)
 - [x] 5.1 - ~~JavaScript - DOM e seletores~~
 - [x] 5.2 - ~~JavaScript - Trabalhando com elementos~~
 - [x] 5.3 - ~~JavaScript - Eventos~~
@@ -40,21 +40,21 @@
 - [x] 5.5 - ~~Projeto~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
 - [ ] 5.6 - Projetos Bônus :rocket::rocket::rocket:
 
-### :hourglass_flowing_sand: Seção 06 - [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-06-html-e-css-forms-flexbox-e-responsivo)
+### :heavy_check_mark: Seção 06 - [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-06-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1 - ~~HTML & CSS - Forms~~
 - [x] 6.2 - ~~Bibliotecas JavaScript e Frameworks CSS~~
 - [x] 6.3 - ~~CSS Flexbox - Parte 1~~
-- [ ] 6.4 - CSS Flexbox - Parte 2
-- [ ] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - :rocket:
+- [x] 6.4 - ~~CSS Flexbox - Parte 2~~
+- [x] 6.5 - ~~CSS Responsivo - Mobile First~~
+- [x] 6.6 - ~~Projeto~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
 
-### Seção 07 - Introdução à JavaScript ES6 e Testes Unitários
-- [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7.2 - JavaScript ES6 - Fluxo de exceção e Objetos
-- [ ] 7.3 - Primeiros passos em Jest
-- [ ] 7.4 - Projeto - :rocket:
+### :hourglass_flowing_sand: Seção 07 - Introdução à JavaScript ES6 e Testes Unitários
+- [x] 7.1 - ~~Fluxo de exceções e manipulação de objetos~~
+- [x] 7.2 - ~~Primeiros passos em Jest~~
+- [x] 7.3 - ~~Matchers e cobertura de código~~
+- [x] 7.4 - ~~Projeto~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
 
-### Seção 08 - Higher Order Functions do JavaScript ES6
+### :hourglass_flowing_sand: Seção 08 - Higher Order Functions do JavaScript ES6
 - [ ] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
 - [ ] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [ ] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
