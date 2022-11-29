@@ -1,5 +1,3 @@
-// git commit -m "Exercício "
-
 // Case 01 - Alterar elementos de uma array
 
 const pessoasAprovadas = ['Ana Beatriz', 'Caio Nunes', 'Afonso Ribeiro', 'Leonardo Lins']; // lista de nomes

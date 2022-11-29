@@ -1,5 +1,3 @@
-// git commit -m "Exercício "
-
 // Case 01 - Se existe pessoa com cargo 'Gerência'
 
 const pessoas = [

@@ -1,4 +1,3 @@
-// git commit -m "Higher Order Functions "
 const button = document.querySelector('#signup-button');
 
 const registerUser = () => {

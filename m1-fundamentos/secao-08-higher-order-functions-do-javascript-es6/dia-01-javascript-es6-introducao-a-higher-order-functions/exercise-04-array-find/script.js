@@ -1,5 +1,3 @@
-// git commit -m "Exercício "
-
 // Case 01 - 
 
 const idades = [18, 21, 42, 20, 19, 21, 30, 73, 82, 45, 48, 50];

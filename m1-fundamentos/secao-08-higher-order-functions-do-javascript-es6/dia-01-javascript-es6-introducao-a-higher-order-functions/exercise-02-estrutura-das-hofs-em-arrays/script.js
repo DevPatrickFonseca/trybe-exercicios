@@ -1,5 +1,3 @@
-// git commit -m "Exercício "
-
 const arrayOfValues = ['josé', 50, 0.25, { comida: 'Chocolate' }];
 
 arrayOfValues.forEach((element, index) => {
