@@ -92,6 +92,23 @@ console.log(smallerName());
 
 // 03 -Encontre o primeiro livro cujo nome possua 26 caracteres.
 
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin',
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991,
+};
+
+const getNamedBook = () => {
+  return books.find((book) => book.name.length === 26);
+}
+
+console.log(getNamedBook());
+
 // 04 - Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário.
 
 // 05 - Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
