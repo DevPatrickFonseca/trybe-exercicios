@@ -65,14 +65,30 @@ const books = [
 
 // 01 - Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 
-const expectedResult = 'Stephen King';
+const expectedResult1 = 'Stephen King';
+
 const authorBornIn1947 = () => {
-  return books.find((book) => book.author.birthYear ===1947).author.name;
+  return books.find((book) => book.author.birthYear === 1947).author.name;
 }
 
 console.log(authorBornIn1947());
 
 // 02 - Retorne o nome do livro com menor número de caracteres (menor nome).
+
+const expectedResult2 = 'Duna';
+
+const smallerName = () => {
+  let nameBook;
+  
+  books.forEach((book) => {
+    if (!nameBook || book.name.length < nameBook.length) { // nameBook vazio guarda
+      nameBook = book.name;
+    }
+  });
+  return nameBook;
+}
+
+console.log(smallerName());
 
 // 03 -Encontre o primeiro livro cujo nome possua 26 caracteres.
 
