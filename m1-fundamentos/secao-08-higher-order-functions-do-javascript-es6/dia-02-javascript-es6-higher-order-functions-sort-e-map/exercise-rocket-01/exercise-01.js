@@ -65,7 +65,7 @@ const books = [
 
 // 01 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 
-const expectedResult = [
+const expectedResult1 = [
   'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
   'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
   'Fundação - Ficção Científica - Isaac Asimov',
@@ -79,3 +79,20 @@ const formatedBookNames = () => {
 }
 
 console.log(formatedBookNames());
+
+// 02 - Crie um array com strings no formato NOME_DA_PESSOA_AUTORA - DATA DE NASCIMENTO
+
+const expectedResult2 = [
+  'George R. R. Martin - 1948',
+  'J. R. R. Tolkien - 1892',
+  'Isaac Asimov - 1920',
+  'Frank Herbert - 1920',
+  'Stephen King - 1947',
+  'H. P. Lovecraft - 1890',
+];
+
+const formatedAuthorNamesBirth = () => {
+  return books.map((book) => (`${book.author.name} - ${book.author.birthYear}`))
+}
+
+console.log(formatedAuthorNamesBirth());
