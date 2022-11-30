@@ -92,7 +92,7 @@ console.log(smallerName());
 
 // 03 -Encontre o primeiro livro cujo nome possua 26 caracteres.
 
-const expectedResult = {
+const expectedResult3 = {
   author: {
     birthYear: 1948,
     name: 'George R. R. Martin',
@@ -110,6 +110,14 @@ const getNamedBook = () => {
 console.log(getNamedBook());
 
 // 04 - Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário.
+
+const expectedResult4 = false;
+
+function everyoneWasBornOnSecXX() {
+  return books.every((book) => book.author.birthYear >= 1901 && book.author.birthYear <= 2000);
+};
+
+console.log(everyoneWasBornOnSecXX());
 
 // 05 - Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
 
