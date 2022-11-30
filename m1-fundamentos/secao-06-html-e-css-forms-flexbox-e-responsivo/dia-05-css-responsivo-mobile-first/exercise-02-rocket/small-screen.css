@@ -1,0 +1,108 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* Exercício 02 - Ajuste o tamanho da fonte; */
+  font: 1.2em/1.2 Helvetica, aria, sans-serif;
+
+  /* Exercício 03 - Ajuste as margens da página; */
+  margin: 0 3%;
+}
+
+/* Modificações textos*/
+
+article {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0.9em 0 0 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.5em 0 0 0;
+}
+
+/* Exercício 04 - Faça as imagens serem mostradas em duas colunas */
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Modificações imagens*/
+
+figure {
+  background: rgb(2, 41, 85);
+  border-radius: 5px;
+  color: white;
+  margin: 0 0 25px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+/* * Referencia */
+
+/* ? max-width: 600px: Telas de celular. (Mobile devices) */
+/* ? min-width: 600px: iPads, Tablets */
+/* ? min-width: 768px: Telas menores, laptops */
+/* ? min-width: 992px: Desktops */
+/* ? min-width: 1200px — Telas grandes, screens e TV. */
+
+/* Realize as seguintes tarefas: */
+
+/* Exercício 01 */
+
+/* Agora que temos um padrão, vamos criar um breakpoint para telas menores de laptops. Para isso nós podemos consultar nossa tabela acima e utilizar o min-width: 768px e quando tivermos em telas menores que 768px esse estilo não vai ser aplicado. Esse será o primeiro breakpoint do layout. Um breakpoint é apenas um ponto onde estamos definindo que o design atual deve mudar. Ok? */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(137, 192, 243);
+    margin: 25px 6%;
+  }
+
+  figure {
+    width: 45%;
+    margin-right: 4.5%;
+  }
+}
+
+/* Exercício 05 - Crie uma nova media query 992px */
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: rgb(247, 197, 247);
+    margin: 25px 10%;
+    max-width: 1130px;
+  }
+
+  figure {
+    width: 30%;
+    margin-right: 2.5%;
+  }
+}
