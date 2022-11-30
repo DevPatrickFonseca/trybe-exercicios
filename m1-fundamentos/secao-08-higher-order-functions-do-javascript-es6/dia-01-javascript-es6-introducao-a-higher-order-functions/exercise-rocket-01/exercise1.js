@@ -130,3 +130,13 @@ const someBookWasReleaseOnThe80s = () => {
 console.log(someBookWasReleaseOnThe80s());
 
 // 06 - Faça uma função que retorne true, caso nenhuma pessoa autora tenha nascido no mesmo ano, e false, caso contrário.
+
+const expectedResult6 = false;
+
+function authorUnique() {
+  return books.sort((book) => book.author.birthYear === book.author.birthYear);
+};
+
+
+
+console.log(authorUnique());
