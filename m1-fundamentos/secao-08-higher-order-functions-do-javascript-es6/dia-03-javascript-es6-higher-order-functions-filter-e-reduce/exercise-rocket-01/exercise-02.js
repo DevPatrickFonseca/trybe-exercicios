@@ -102,7 +102,7 @@ const oldBooksOrdered = () => {
     .filter((book) => (currentYear - book.releaseYear) >= 60)
       // Retorna apenas livros com mais de 60 anos
     .sort((a, b) => a.releaseYear - b.releaseYear);
-      // Ordena livros por mais novo
+      // Ordena livros por mais novo retornado pelo filter
 };
 
 console.log(oldBooksOrdered());

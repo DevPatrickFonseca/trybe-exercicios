@@ -1,4 +1,4 @@
-// Organizando biblioteca 03
+// Organizando biblioteca 04
 
 const books = [
   {
@@ -63,17 +63,25 @@ const books = [
   },
 ];
 
-//  03 - Faça uma função que retorne os nomes dos livros, dado o ano de nascimento das pessoas autoras
+//  04 - Crie um array que possua apenas os nomes de todas as pessoas autoras de ficção científica ou fantasia e ordene por ordem alfabética.
 
-const expectedResult = [ 'Fundação', 'Duna' ];
+const expectedResult = [
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
+];
 
-const booksByAuthorBirthYear = (birthYear) => {
+const fantasyOrScienceFictionAuthors = () => {
+  const genresBooks = ['Fantasia', 'Ficção Científica'];
+
   return books
-  .filter((book) => book.author.birthYear === birthYear)
-  // Retorna livros pelo nascimento do autor 1920
-  .map((book) => book.name);
-  // Retorna nome dos livros retornados pelo filter
-};
-const result = booksByAuthorBirthYear(1920);
+    .filter((book) => genresBooks.includes(book.genre)) 
+    // Retorna livros por genero
+    .map((book) => book.author.name)
+    // Retorna autores dos livros retornados pelo filter
+    .sort(); 
+    // Ordena os autores retornados pelo map
+}
 
-console.log(result);
+console.log(fantasyOrScienceFictionAuthors());
