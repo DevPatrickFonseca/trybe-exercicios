@@ -25,7 +25,7 @@ arr.filter((element, index, array) => console.log('Elemento:', element, 'Índice
 const filtroAna = arr.filter((element) => element === 'Ana');
 console.log(filtroAna); // Array Ana de arr
 
-// Case 04
+// Case 04 - Exemplo com array
 const notaEstudantes = [
   {
     nome: 'Joicy',
