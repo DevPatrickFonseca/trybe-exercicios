@@ -1,6 +1,5 @@
 // Organizando biblioteca 02
 
-
 const books = [
   {
     id: 1,
