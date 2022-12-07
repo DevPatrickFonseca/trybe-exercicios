@@ -10,9 +10,3 @@ const rectangles = [rectangle1, rectangle2, rectangle3];
 rectangles.forEach((rectangle) => {
   console.log(rectangleArea(...rectangle)); // Altere o parâmetro recebido por rectangleArea()
 });
-
-const sum = (...numbers) => {
-  numbers.reduce(((acc, val) => acc + val), 0);
-};
-
-console.log(sum);
