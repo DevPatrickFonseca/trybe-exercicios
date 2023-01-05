@@ -8,7 +8,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ----
 
-## Módulo 01 - [Fundamentos do Desenvolvimento Web](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos) :hourglass_flowing_sand:
+## Módulo 01 - [Fundamentos do Desenvolvimento Web](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos) 
 
 > #### :heavy_check_mark: Seção 01 - Unix e Bash
 > #### :heavy_check_mark: Seção 02 - Git e GitHub 
@@ -17,11 +17,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 > #### :heavy_check_mark: Seção 05 - JavaScript: DOM, Eventos e Web Storage
 > #### :heavy_check_mark: Seção 06 - HTML e CSS: Forms, Flexbox e Responsivo
 > #### :heavy_check_mark: Seção 07 - Introdução à JavaScript ES6 e Testes Unitários
-> #### :hourglass_flowing_sand: Seção 08 - Higher Order Functions do JavaScript ES6
+> #### :heavy_check_mark: Seção 08 - Higher Order Functions do JavaScript ES6
 
 ----
 
-## Módulo 02 – [Front-end](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m2-front-end)
+## Módulo 02 – [Front-end](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m2-front-end) :hourglass_flowing_sand:
 
 > #### Seção 01 - JavaScript e Testes Assíncronos
 > #### Seção 02 - Introdução ao React
