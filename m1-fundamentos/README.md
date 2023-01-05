@@ -48,16 +48,16 @@
 - [x] 6.5 - ~~CSS Responsivo - Mobile First~~
 - [x] 6.6 - ~~Projeto~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
 
-### :hourglass_flowing_sand: Seção 07 - Introdução à JavaScript ES6 e Testes Unitários
+### :heavy_check_mark: Seção 07 - [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-07-introducao-a-javascript-es6-e-testes-unitarios)
 - [x] 7.1 - ~~Fluxo de exceções e manipulação de objetos~~
 - [x] 7.2 - ~~Primeiros passos em Jest~~
 - [x] 7.3 - ~~Matchers e cobertura de código~~
 - [x] 7.4 - ~~Projeto~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
 
-### :hourglass_flowing_sand: Seção 08 - Higher Order Functions do JavaScript ES6
-- [ ] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+### :heavy_check_mark: Seção 08 - [Higher Order Functions do JavaScript ES6](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-08-higher-order-functions-do-javascript-es6)
+- [x] 8.1 - ~~JavaScript ES6 - Introdução a Higher Order Functions~~
+- [x] 8.2 - ~~JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort~~
+- [x] 8.3 - ~~JavaScript ES6 - Higher Order Functions - map e filter~~
+- [x] 8.4 - ~~JavaScript ES6 - Higher Order Functions - reduce~~
+- [x] 8.5 - ~~JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais~~
 - [ ] 8.6 - Projeto - :rocket:
