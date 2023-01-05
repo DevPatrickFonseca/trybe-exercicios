@@ -38,7 +38,10 @@
 - [x] 5.3 - ~~JavaScript - Eventos~~
 - [x] 5.4 - ~~JavaScript - Web Storage~~
 - [x] 5.5 - ~~Projeto 03~~ - :rocket: **Concluído com 100% de Sucesso** :rocket:
-- [ ] 5.6 - Projetos Bônus :rocket::rocket::rocket:
+- [x] 5.6 - Projetos Bônus - Carta Misteriosa :rocket::rocket::rocket:
+- [ ] 5.7 - Projetos Bônus - Adivinhe a Cor :rocket::rocket::rocket:
+- [ ] 5.8 - Projetos Bônus - Lista de Tarefas :rocket::rocket::rocket:
+- [ ] 5.9 - Projetos Bônus - Meme Generator :rocket::rocket::rocket:
 
 ### :heavy_check_mark: Seção 06 - [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m1-fundamentos/secao-06-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1 - ~~HTML & CSS - Forms~~
