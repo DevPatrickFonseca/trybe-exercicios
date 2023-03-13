@@ -23,12 +23,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Módulo 02 – [Front-end](https://github.com/PFonsecaFV/trybe-exercicios/tree/main/m2-front-end) :hourglass_flowing_sand:
 
-> #### Seção 01 - JavaScript e Testes Assíncronos
-> #### Seção 02 - Introdução ao React
-> #### Seção 03 - Componentes com Estado, Eventos e Formulários com React
-> #### Seção 04 - Ciclo de Vida de Componentes e React Router
-> #### Seção 05 - Metodologias Ágeis
-> #### Seção 06 - Testes automatizados com React Testing Library
+> #### :heavy_check_mark: Seção 01 - JavaScript e Testes Assíncronos
+> #### :heavy_check_mark: Seção 02 - Introdução ao React
+> #### :heavy_check_mark: Seção 03 - Componentes com Estado, Eventos e Formulários com React
+> #### :heavy_check_mark: Seção 04 - Ciclo de Vida de Componentes e React Router
+> #### :heavy_check_mark: Seção 05 - Metodologias Ágeis
+> #### :heavy_check_mark: Seção 06 - Testes automatizados com React Testing Library
 > #### Seção 07 - Gerenciamento de estado com Redux
 > #### Seção 08 - Projeto Jogo de Trivia
 > #### Seção 09 - Context API e React Hooks
